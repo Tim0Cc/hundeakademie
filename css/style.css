@@ -1,6 +1,7 @@
 /* IMPORTS */
 
 /* CSS components */
+@import 'components/article-news.css';
 @import 'components/banner.css';
 @import 'components/fonts.css';
 @import 'components/footer.css';
