@@ -2,6 +2,9 @@
 /* libraries */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
 /* components */
 @import 'components/navbar.css';
 @import 'components/footer.css';
