@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+p {
+  font-family: "Source Open Sans", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+  color: white;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 5px black;
+}
+
+.subheader, .subsubheader {
+  letter-spacing: 0.2rem;
+  line-height: 1.4rem;
+  text-shadow: 0 0 5px black;
+}
+.subheader {
+  color: white;
+  font-size: 20px;
+}
+
+.subsubheader {
+  color: rgba(255, 255, 255, 0.88);
+}
