@@ -1,52 +1,26 @@
 
 /* DROP DOWN MENU */
 
-@media (min-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .menu-icon {
-    display: none;
+@media (max-width: 719px) {
+  .menu-wrap {
+    padding: 8px;
   }
   
-  nav {
-    position: relative;
-    top: 0;
-    background: transparent;
-    flex-grow: 1;
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  nav ul li {
-    display: inline-flex;
-    justify-content: space-between;
-  }
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 719px) {
   nav {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 72px;
+    top: 64px;
     right: 0;
-    background: linear-gradient(270deg,
-    rgba(20,33,61,1), rgba(20,33,61,0.25));
+    background: linear-gradient(90deg,
+    rgba(20,33,61,1), rgba(13, 18, 29, 0.4));
     opacity: 0.8;
     width: 80%;
     height: 100% ;
     display: none;
   }
 
-  nav ul li a {
-    padding: 12px;
-  }
-
+  
   #checkbox-toggle:checked ~ nav {
     display: inline-block;
     padding: 16px 0;
@@ -62,43 +36,88 @@
   nav {
     margin: 0;
     padding: 0;
-    float: right;
   }
   
   nav ul {
     list-style-type: none;
     overflow: hidden;
+    align-items: right;
     /* display: flex; */
   }
   
   nav ul li {
-    text-align: right;
     padding: 8px;
+  }
+  nav ul li a {
+    padding: 12px;
+    border-bottom: solid white 1px;
   }
 }
 
 
 /* SCREEN MENU */
 
-.drop-menu {
+@media (min-width: 720px) {
+  /* For a screen > 720px, this CSS will be read */
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-wrap {
+    position: relative;
+    height: 64px;
+    padding: 8px 16px;
+    align-items: center;
+  }
+
+  nav {
+    position: absolute;
+    right: 32px;
+    align-items: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    padding: 0 24px;
+    justify-content: space-between;
+  }
+
+  .icon-fb {
+    padding-left: 24px;
+  }
+
+  .container {
+    width: 500px;
+  }
+}
+
+/* GENERAL */
+
+.menu {
   background-color: #0D1323;
-  width: 100%;
-  height: 72px;
 }
 
 .menu-wrap {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
 }
 
 #checkbox-toggle {
   display: none;
 }
 
+nav ul li a {
+  display: flex;
+  align-items: center;
+}
 
 nav ul li a {
-  display: inline-block;
   text-decoration: none;
   color: white;
   letter-spacing: 0.05em;
