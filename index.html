@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>
@@ -15,10 +16,11 @@
     
   </head>
   <body>
-    <div class="menu">
+    <div class="drop-menu">
       <div class="menu-wrap">
         <i class="fas fa-dog fa-2x"></i>
         <i class="fab fa-facebook fa-2x"></i>
+        <input type="checkbox" id="checkbox-toggle">
         <nav>
           <ul>
             <li><a href="#">HOME</a></li>
@@ -27,7 +29,9 @@
             <li><a href="#">about</a></li>
           </ul>
         </nav>
-        <i class="fas fa-bars fa-2x menu-icon"></i>
+        <label for="checkbox-toggle">
+          <i class="fas fa-bars fa-2x menu-icon"></i>
+        </label>
       </div>
     </div>
 
