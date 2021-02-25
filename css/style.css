@@ -7,25 +7,6 @@
 @import 'components/footer.css';
 @import 'components/icons.css';
 
-/* SCREENSIZE */
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-}
 
 /* GENERAL */
 
@@ -33,7 +14,6 @@ body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
 }
 
 h1 {
@@ -42,13 +22,19 @@ h1 {
 
 /* PAGE */
 
-/* header */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 
-.banner {
+/* BANNER */
+
+#banner {
   width: 100%;
-  height: 720px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 25%;
 }
 
 .fas, .fab {
@@ -57,4 +43,26 @@ h1 {
 
 i {
   margin: 8px;
+}
+
+
+/* SCREENSIZE */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 85%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 90%;
+  }
 }

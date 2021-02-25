@@ -1,3 +1,43 @@
+/* GENERAL */
+
+#menu {
+  background-color: #0D1323;
+  opacity: 0.95;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top ease-in-out 0.3s;
+}
+
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+#checkbox-toggle {
+  display: none;
+}
+
+nav ul li.active a {
+  color: #eb6f4a;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
+  color: #eb6f4a;
+  transition: ease-in-out 0.2s;
+}
+
 
 /* DROP DOWN MENU */
 
@@ -39,7 +79,6 @@
     list-style-type: none;
     overflow: hidden;
     align-items: right;
-    /* display: flex; */
   }
   
   nav ul li {
@@ -52,7 +91,7 @@
 }
 
 
-/* SCREEN MENU */
+/* DESKTOP MENU */
 
 @media (min-width: 720px) {
   /* For a screen > 720px, this CSS will be read */
@@ -92,44 +131,4 @@
   .container {
     width: 500px;
   }
-}
-
-/* GENERAL */
-
-#menu {
-  background-color: #0D1323;
-  opacity: 0.95;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  transition: top ease-in-out 0.3s;
-}
-
-.menu-wrap {
-  display: flex;
-  justify-content: space-between;
-}
-
-#checkbox-toggle {
-  display: none;
-}
-
-nav ul li.active a {
-  color: #eb6f4a;
-}
-
-nav ul li a {
-  display: flex;
-  align-items: center;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  letter-spacing: 0.05em;
-}
-
-i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
-  color: #eb6f4a;
-  transition: ease-in-out 0.2s;
 }
