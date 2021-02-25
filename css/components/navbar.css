@@ -1,12 +1,82 @@
 
 /* DROP DOWN MENU */
 
-@media (max-width: 720px) {
+@media (min-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
+  .menu-icon {
+    display: none;
+  }
+  
+  nav {
+    position: relative;
+    top: 0;
+    background: transparent;
+    flex-grow: 1;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    display: inline-flex;
+    justify-content: space-between;
+  }
   .container {
     width: 500px;
   }
 }
+
+@media (max-width: 719px) {
+  nav {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 72px;
+    right: 0;
+    background: linear-gradient(270deg,
+    rgba(20,33,61,1), rgba(20,33,61,0.25));
+    opacity: 0.8;
+    width: 80%;
+    height: 100% ;
+    display: none;
+  }
+
+  nav ul li a {
+    padding: 12px;
+  }
+
+  #checkbox-toggle:checked ~ nav {
+    display: inline-block;
+    padding: 16px 0;
+    /* transition: ease-in 2.5s; */
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    /* display: flex; */
+  }
+  
+  nav ul li {
+    text-align: right;
+    padding: 8px;
+  }
+}
+
 
 /* SCREEN MENU */
 
@@ -26,45 +96,15 @@
   display: none;
 }
 
-nav {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 72px;
-  right: 0;
-  background: linear-gradient(270deg,
-    rgba(20,33,61,1), rgba(20,33,61,0.25));
-  opacity: 0.8;
-  width: 80%;
-  height: 100% ;
-  display: none;
-}
-
-#checkbox-toggle:checked ~ nav {
-  display: block;
-  padding: 16px 0;
-  transition: ease-in 2.5s;
-}
-
-nav ul {
-  list-style-type: none;
-  overflow: hidden;
-}
-
-nav ul li {
-  text-align: right;
-  padding: 8px;
-}
 
 nav ul li a {
   display: inline-block;
-  padding: 12px;
   text-decoration: none;
   color: white;
   letter-spacing: 0.05em;
 }
 
-i:hover, nav ul li a:hover, nav ul li a:focus {
+i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
   color: #eb6f4a;
   transition: ease-in-out 0.2s;
 }
