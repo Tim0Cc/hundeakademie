@@ -52,8 +52,8 @@ i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
     position: absolute;
     top: 64px;
     right: 0;
-    background: linear-gradient(90deg,
-    rgba(20,33,61,1), rgba(13, 18, 29, 0.4));
+    background: linear-gradient(110deg,
+    rgb(12, 19, 36) 40%, rgba(13, 18, 29, 0.116) 80%);
     opacity: 0.95;
     width: 80%;
     display: none;

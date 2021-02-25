@@ -36,17 +36,17 @@ h1 {
 }
 
 .subheader, .subsubheader {
-  color: white;
   letter-spacing: 0.2rem;
   line-height: 1.4rem;
   text-shadow: 0 0 5px black;
 }
 .subheader {
+  color: white;
   font-size: 20px;
 }
 
 .subsubheader {
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.88);
 }
 
 /* PAGE */
