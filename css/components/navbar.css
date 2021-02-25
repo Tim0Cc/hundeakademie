@@ -14,17 +14,14 @@
     right: 0;
     background: linear-gradient(90deg,
     rgba(20,33,61,1), rgba(13, 18, 29, 0.4));
-    opacity: 0.8;
+    opacity: 0.95;
     width: 80%;
-    height: 100% ;
     display: none;
   }
 
   
   #checkbox-toggle:checked ~ nav {
     display: inline-block;
-    padding: 16px 0;
-    /* transition: ease-in 2.5s; */
   }
   
   nav ul {
@@ -65,8 +62,8 @@
 
   .menu-wrap {
     position: relative;
-    height: 64px;
-    padding: 8px 16px;
+    height: 56px;
+    padding: 4px 16px;
     align-items: center;
   }
 
@@ -89,7 +86,7 @@
   }
 
   .icon-fb {
-    padding-left: 24px;
+    margin: auto 24px;
   }
 
   .container {
@@ -99,8 +96,13 @@
 
 /* GENERAL */
 
-.menu {
+#menu {
   background-color: #0D1323;
+  opacity: 0.95;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top ease-in-out 0.3s;
 }
 
 .menu-wrap {
@@ -110,6 +112,10 @@
 
 #checkbox-toggle {
   display: none;
+}
+
+nav ul li.active a {
+  color: #eb6f4a;
 }
 
 nav ul li a {
