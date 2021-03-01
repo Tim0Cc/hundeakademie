@@ -7,16 +7,17 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: "Source Open Sans", "Arial", sans-serif;
+  font-weight: 200;
+  line-height: 1.5em;
+  letter-spacing: 0.1rem;
 }
 
 h1 {
   font-size: 48px;
-  margin-top: 0;
   color: white;
   letter-spacing: 0.2rem;
   text-shadow: 0 0 5px black;
 }
-
 .subheader, .subsubheader {
   letter-spacing: 0.2rem;
   line-height: 1.4rem;
@@ -26,7 +27,28 @@ h1 {
   color: white;
   font-size: 20px;
 }
+.subsubheader {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+
 
 .subsubheader {
   color: rgba(255, 255, 255, 0.88);
+}
+
+.text-center {
+  text-align: center;
 }
