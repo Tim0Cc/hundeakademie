@@ -71,7 +71,7 @@ body, html {
     font-size: 0.8em;
   }
 
-  .avatar img {
+  .avatar, img {
     width: 200px;
     height: 200px;
   }

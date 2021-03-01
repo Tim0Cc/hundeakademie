@@ -10,8 +10,10 @@
 
 .left {
   grid-column: 1;
+  padding: 16px;
 }
 
 .right {
   grid-column: 2;
+  justify-items: center;
 }
