@@ -1,19 +1,33 @@
-/* .flex {
-  display: flex;
-  justify-content: space-between;
-} */
+/* about */
 
 .wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
-.left {
+.leftside {
   grid-column: 1;
+  padding: 16px;
+  display: grid;
+}
+
+.rightside {
+  grid-column: 2;
+  justify-items: center;
   padding: 16px;
 }
 
-.right {
-  grid-column: 2;
-  justify-items: center;
+/* contact */
+
+.contact {
+  background: white;
+  padding: 16px;
+}
+
+address {
+  font-style: normal;
+}
+
+.text-right {
+  text-align: right;
 }
