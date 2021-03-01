@@ -1,4 +1,17 @@
-.flex {
+/* .flex {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+} */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.left {
+  grid-column: 1;
+}
+
+.right {
+  grid-column: 2;
 }

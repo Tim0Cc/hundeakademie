@@ -2,6 +2,7 @@
 
 /* CSS components */
 @import 'components/article-news.css';
+@import 'components/avatar.css';
 @import 'components/banner.css';
 @import 'components/fonts.css';
 @import 'components/footer.css';
@@ -69,6 +70,11 @@ body, html {
   p {
     font-size: 0.8em;
   }
+
+  .avatar img {
+    width: 200px;
+    height: 200px;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -87,5 +93,9 @@ body, html {
   }
   h3 {
     font-size: 24px;
+  }
+
+  .wrapper {
+    display: block;
   }
 }
