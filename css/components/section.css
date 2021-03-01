@@ -1,3 +1,9 @@
+/* general */
+
+section {
+  margin-bottom: 4vh;
+}
+
 /* about */
 
 .wrapper {
@@ -26,7 +32,7 @@
 }
 
 #img-map {
-  max-width: 90%;
+  max-width: 95%;
 }
 
 address {
