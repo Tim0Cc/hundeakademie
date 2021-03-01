@@ -102,4 +102,8 @@ body, html {
   .wrapper {
     display: block;
     }
+
+  .newscontainer {
+    max-height: 24rem;
+  }
 }

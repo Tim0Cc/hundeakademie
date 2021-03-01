@@ -7,6 +7,7 @@
   top: 0;
   width: 100%;
   transition: top ease-in-out 0.3s;
+  z-index: 1;
 }
 
 .menu-wrap {

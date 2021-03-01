@@ -8,6 +8,10 @@
   max-height: 95%;
 }
 
+.newscontainer {
+  max-height: 16rem;
+}
+
 .news-box {
   max-width: 72vw;
   padding: 32px;
