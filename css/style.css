@@ -83,6 +83,9 @@ body, html {
     display: block;
   }
 
+  .leftside {
+    padding: 16px 0;
+  }
 
   .news-box {
     padding: 20px 18px 8px 18px;
