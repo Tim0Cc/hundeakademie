@@ -7,8 +7,16 @@
   filter: invert()
 }
 
-.fas, .fab {
+.phone-icon {
+  transform: scaleX(-1);
+}
+
+.fas, .fab, .far {
   color: white;
+}
+
+.phone-icon, .mail-icon {
+  font-size: 24px;
 }
 
 i {

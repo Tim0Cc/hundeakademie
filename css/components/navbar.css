@@ -39,10 +39,22 @@ i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
   transition: ease-in-out 0.2s;
 }
 
+.fbmailtel {
+  display: flex;
+}
+
+.mailtel a {
+  margin-left: 16px;
+}
+
+.mobile {
+  display: none;
+}
+
 
 /* DROP DOWN MENU */
 
-@media (max-width: 719px) {
+@media (max-width: 960px) {
   .menu-wrap {
     padding: 8px;
   }
@@ -60,6 +72,10 @@ i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
     display: none;
   }
 
+  .desktop {
+    display: none;
+  }
+
   
   #checkbox-toggle:checked ~ nav {
     display: inline-block;
@@ -73,7 +89,8 @@ i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
   }
   nav {
     margin: 0;
-    padding: 0;
+    padding: 0 0 4px 0;
+    border-radius: 0 0 0 4px;
   }
   
   nav ul {
@@ -89,12 +106,23 @@ i:hover, i:focus, nav ul li a:hover, nav ul li a:focus {
     padding: 12px;
     border-bottom: solid white 1px;
   }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile a {
+    display: block;
+  }
+  .phone-icon, .mail-icon {
+    font-size: 20px;
+  }
 }
 
 
 /* DESKTOP MENU */
 
-@media (min-width: 720px) {
+@media (min-width: 961px) {
   /* For a screen > 720px, this CSS will be read */
   .menu-icon {
     display: none;
