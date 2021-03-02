@@ -10,6 +10,7 @@ section {
 .wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  align-items: center;
 }
 
 .leftside {
@@ -23,6 +24,10 @@ section {
   justify-items: center;
   padding: 16px;
   min-width: 200px;
+}
+
+.leftside, .rightside {
+  margin: 0 20px 0 20px;
 }
 
 /* contact */
