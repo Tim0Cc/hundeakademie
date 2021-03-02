@@ -79,6 +79,10 @@ body, html {
   .leftside > .wrapper {
     display: block;
   }
+
+  .news-box {
+    padding: 20px 18px 8px 18px;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -104,6 +108,15 @@ body, html {
     }
 
   .newscontainer {
-    max-height: 24rem;
+    max-height: 20rem;
+  }
+
+  #main {
+    position: absolute;
+    top: 90vh;
+  }
+
+  #banner-section {
+    padding-top: 120px;
   }
 }

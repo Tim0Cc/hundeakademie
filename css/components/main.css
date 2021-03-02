@@ -1,4 +1,6 @@
 #main {
+  position: absolute;
+  top: 94vh;
   background-image: linear-gradient(160deg, rgba(20, 33, 61, 0.6), rgba(20, 33, 61, 0.9)), url("https://image.freepik.com/free-photo/concrete-wall_1154-642.jpg");
   width: 100%;
   background-repeat: no-repeat;
