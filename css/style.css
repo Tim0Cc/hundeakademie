@@ -48,9 +48,6 @@ body, html {
   h3 {
     font-size: 28px;
   }
-  .leftside, .rightside {
-    margin: auto auto;
-  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */

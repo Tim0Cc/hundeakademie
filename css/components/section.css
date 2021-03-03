@@ -27,7 +27,7 @@ section {
 }
 
 .leftside, .rightside {
-  margin: 0 20px 0 20px;
+  margin: auto auto;
 }
 
 /* contact */
