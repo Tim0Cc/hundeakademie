@@ -10,3 +10,16 @@
 .btn-green {
   background-color: chartreuse;
 }
+
+.btn-dark {
+  background-color: #0D1323;
+  color: white;
+}
+.btn-dark a {
+  color: white;
+}
+
+.btn-bottom {
+  position: absolute;
+  bottom: 32px;
+}

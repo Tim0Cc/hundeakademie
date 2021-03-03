@@ -7,5 +7,7 @@
   border-radius: 50%;
   box-shadow: 2px 1px 4px 4px #FFFFFF;
   margin: 0 auto;
-  display: block;
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
