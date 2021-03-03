@@ -11,16 +11,20 @@
 .btn-green {
   background-color: #2dffe6;
 }
-
 .btn-green:hover {
   background-color: #0d132336;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   transition: ease-in-out 0.1s;
 }
 
 .btn-dark {
-  background-color: #0D1323;
-  color: white;
+  background-color: #14213D;
+  color: rgba(255, 255, 255, 0.85);
+}
+.btn-dark:hover {
+  background-color: #0d132336;
+  color: rgba(255, 255, 255, 1.0);
+  transition: ease-in-out 0.1s;
 }
 
 .btn-bottom {
