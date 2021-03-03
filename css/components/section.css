@@ -38,13 +38,19 @@ section {
 }
 
 #img-map {
-  max-width: 95%;
+  width: 100%;
+  height: 100%;
 }
-#map-link{
+#map-link {
   cursor: pointer;
 }
-#map-link a:hover {
-  opacity: 0.5;
+.leftside .map-container {
+  background: rgba(20,33,61,1);
+  white-space: nowrap;
+}
+#map-link img:hover {
+  opacity: 0.8;
+  transition: 0.1s;
 }
 
 address {
