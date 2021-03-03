@@ -40,6 +40,12 @@ section {
 #img-map {
   max-width: 95%;
 }
+#map-link{
+  cursor: pointer;
+}
+#map-link a:hover {
+  opacity: 0.5;
+}
 
 address {
   font-style: normal;

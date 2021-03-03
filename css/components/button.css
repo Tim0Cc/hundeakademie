@@ -1,25 +1,28 @@
 .btn {
-  padding: 8px 12px;
+  padding: 8px 24px;
   display: inline-block;
   font-size: 16px;
   text-align: center;
   border-radius: 4px;
-  box-shadow: 0 0 4px 4px;
+  box-shadow: inset 0 0 4px 1px;
 }
 
 .btn-green {
-  background-color: chartreuse;
+  background-color: #2dffe6;
+}
+
+.btn-green:hover {
+  background-color: #0d132336;
+  color: white;
+  transition: ease-in-out 0.1s;
 }
 
 .btn-dark {
   background-color: #0D1323;
   color: white;
 }
-.btn-dark a {
-  color: white;
-}
 
 .btn-bottom {
   position: absolute;
-  bottom: 32px;
+  bottom: 20px;
 }
