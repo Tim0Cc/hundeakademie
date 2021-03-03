@@ -1,0 +1,12 @@
+.btn {
+  padding: 8px 12px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 4px;
+}
+
+.btn-green {
+  background-color: chartreuse;
+}
