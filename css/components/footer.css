@@ -1,6 +1,9 @@
 #footer {
-
   height: 1000px;
   width: 100%;
-  background-color: rgb(53, 46, 38);
+  background-color: #0D1323;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.7);
 }
