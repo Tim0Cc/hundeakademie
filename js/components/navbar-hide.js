@@ -1,5 +1,5 @@
 var prevScollPos = window.pageYOffset;
-window.onscroll = function() {
+let hideNavbar = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScollPos > currentScrollPos) {
     document.getElementById("menu").style.top = "0";
@@ -8,3 +8,6 @@ window.onscroll = function() {
   }
   prevScollPos = currentScrollPos;
 }
+
+
+export { hideNavbar };
