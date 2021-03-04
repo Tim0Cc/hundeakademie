@@ -1,3 +1,5 @@
-import { hideNavbar } from './components/navbar-hide.js'; 
+import { hideNavbar } from './components/navbar-hide.js';
+import { insertNews } from './components/news.js'
 
-window.onscroll = hideNavbar
+window.onscroll = hideNavbar;
+console.log(insertNews);
