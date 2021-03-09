@@ -119,7 +119,7 @@ body, html {
     max-height: 20rem;
   }
 
-  #main {
+  #main-index {
     position: absolute;
     top: 90vh;
   }
