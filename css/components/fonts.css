@@ -18,9 +18,18 @@ a {
   text-decoration: none;
   color: black;
 }
-
 .font-yant {
   font-family: "Yantramanav", "Arial", sans-serif;
+}
+nav .font-yant {
+  letter-spacing: 0.14em;
+  font-size: 1.1em;
+}
+.btn {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-shadow: 0px 0px 1px;
 }
 
 h1 {
