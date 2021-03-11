@@ -35,6 +35,9 @@ body, html {
   .leftside > .wrapper, .rightside > .wrapper {
     display: block;
   }
+  .avatar-vita {
+    width: 
+  }
 }
 
 @media (max-width: 960px) {
