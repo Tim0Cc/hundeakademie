@@ -46,6 +46,13 @@ body, html {
   h3 {
     font-size: 28px;
   }
+  .map-container {
+    width: 360px;
+    height: 300px;
+  }
+  .leftside > .wrapper, .rightside > .wrapper {
+    display: block;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -75,12 +82,14 @@ body, html {
     height: 200px;
   }
 
-  .leftside > .wrapper, .rightside > .wrapper {
-    display: block;
-  }
 
   .news-box {
     padding: 20px 18px 8px 18px;
+  }
+
+  .map-container {
+    width: 300px;
+    height: 250px;
   }
 }
 @media (max-width: 540px) {
@@ -120,5 +129,10 @@ body, html {
 
   #banner-section {
     padding-top: 120px;
+  }
+
+  .map-container {
+    width: 240px;
+    height: 200px;
   }
 }

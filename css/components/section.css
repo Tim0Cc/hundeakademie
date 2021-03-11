@@ -47,9 +47,10 @@ section {
 #map-link {
   cursor: pointer;
 }
-.leftside .map-container {
+.map-container {
+  width: 480px;
+  height: 400px;
   background: rgba(20,33,61,1);
-  white-space: nowrap;
 }
 #map-link img:hover {
   opacity: 0.8;
