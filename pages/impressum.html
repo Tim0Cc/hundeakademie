@@ -1,15 +1,60 @@
-<h1>impressum</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../img/icons/sitting-dog-32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Vita</title>
+    <meta name="keywords" content="Hund, Hundewissen, Tiermedizin, Schmerz, Vortrag, Workshop, Erste Hilfe, Tier, Tierarzt">
+    <meta name="description" content="Rund um den Hund – Vorträge & Workshops für Hundebesitzer*innen: Gesundheit, Schmerztherapie, alternative Therapien, Erste Hilfe, rassetypische Erkrankungen">
+    <meta name="author" content="Nina Bayer, Tierärztin">
+    <base href="#" target="_blank"> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <script>
+      $.get("../common/navbar.html", function(data) {
+        $("#navbar-placeholder").replaceWith(data);
+      });
+      $.get("../common/footer.html", function(data) {
+        $("#footer-placeholder").replaceWith(data);
+      });
+    </script>
 
-<div>
-  <img src="../img/icons/sitting-dog-128.png" alt="sitting dog" class="dog-icon">Dog Icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-</div>
-<div>
-  <a href="https://www.freepik.com/photos/background">Background photo created by kues - www.freepik.com</a>
-</div>
-<div>
-  <a href="https://de.freepik.com/vektoren/hund">Hund Vektor erstellt von macrovector - de.freepik.com</a>
-</div>
-<div>
-  <a href="https://www.pexels.com/de-de/foto/nahaufnahme-fotografie-von-zwei-hunden-1364729/">Hintergrund 2 Hunde Fotografiert von <em>bin Ziegler</em> auf Pexels.com</a>
-</div>
-</div>
+    <div id="navbar-placeholder"></div>
+      <div id="main-vita">
+        <div id="main">
+          <section class="about">
+            <div class="container">  
+              <div class="vita-white">
+                <div class="vita-content wrapper wrapper-vita">
+                  <h2>Impressum</h2>
+                  <h3>Haftungsausschluss</h3>
+                </div>
+              </div>
+              <div class="credits">
+                <div>
+                  <img src="../img/icons/sitting-dog-128.png" alt="sitting dog" class="dog-icon">Dog Icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                </div>
+                <div>
+                  <a href="https://www.freepik.com/photos/background">Background photo created by kues - www.freepik.com</a>
+                </div>
+                <div>
+                  <a href="https://de.freepik.com/vektoren/hund">Hund Vektor erstellt von macrovector - de.freepik.com</a>
+                </div>
+                <div>
+                  <a href="https://www.pexels.com/de-de/foto/nahaufnahme-fotografie-von-zwei-hunden-1364729/">Hintergrund 2 Hunde Fotografiert von <em>bin Ziegler</em> auf Pexels.com</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div id="footer-placeholder"></div>
+        </div>
+      </div>
+  </body>
+  <script type="module" src="../js/main.js">
+  </script>
+</html>
+
