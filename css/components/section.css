@@ -10,7 +10,7 @@ section {
 .wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .leftside, .rightside {
@@ -32,6 +32,13 @@ section {
   padding: 16px;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
 
 /* contact */
 
