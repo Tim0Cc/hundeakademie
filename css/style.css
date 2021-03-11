@@ -106,8 +106,8 @@ body, html {
 }
 @media (max-width: 540px) {
   .avatar {
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
   }
   .container {
     width: 90%;

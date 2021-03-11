@@ -1,8 +1,8 @@
 /* general */
 
 section {
-  margin: 16px auto 0 auto;
-  padding: 16px;
+  margin: 0 auto;
+  padding: 40px 16px;
 }
 
 /* about */
@@ -44,7 +44,6 @@ section {
 
 .contact {
   background: white;
-  padding: 16px;
 }
 
 #img-map {
