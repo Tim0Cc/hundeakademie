@@ -33,9 +33,6 @@ body, html {
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 80%;
-  }
 
   h1 {
     font-size: 40px;
@@ -78,12 +75,8 @@ body, html {
     height: 200px;
   }
 
-  .leftside > .wrapper {
+  .leftside > .wrapper, .rightside > .wrapper {
     display: block;
-  }
-
-  .leftside {
-    padding: 16px 0;
   }
 
   .news-box {

@@ -13,22 +13,25 @@ section {
   align-items: center;
 }
 
-.leftside {
-  grid-column: 1;
-  padding: 16px;
-  min-width: 200px;
-}
-
-.rightside {
-  grid-column: 2;
-  justify-items: center;
-  padding: 16px;
-  min-width: 200px;
+.leftside, .rightside {
+  padding: 16px 8px;
 }
 
 .leftside-index, .rightside-index {
-  /* margin: auto auto; */
+  margin: auto auto;
+  min-width: 200px;
 }
+.leftside {
+  grid-column: 1;
+}
+.rightside {
+  grid-column: 2;
+}
+.rightside-center {
+  justify-items: center;
+  padding: 16px;
+}
+
 
 /* contact */
 
