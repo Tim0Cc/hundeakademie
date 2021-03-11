@@ -26,8 +26,8 @@ section {
   min-width: 200px;
 }
 
-.leftside, .rightside {
-  margin: auto auto;
+.leftside-index, .rightside-index {
+  /* margin: auto auto; */
 }
 
 /* contact */

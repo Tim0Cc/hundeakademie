@@ -11,7 +11,8 @@
 @import 'components/main.css';
 @import 'components/navbar.css';
 @import 'components/section.css';
-
+/* CSS pages */
+@import 'pages/vita.css';
 
 /* GENERAL */
 
