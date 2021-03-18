@@ -113,7 +113,7 @@ body, html {
     height: 240px;
   }
   .container {
-    width: 90%;
+    width: 94%;
   }
 
   h1 {
@@ -136,8 +136,11 @@ body, html {
   h4 {
     font-size: 20px;
   }
-  .btn {
+  .btn-big {
     font-size: 20px;
+  }
+  .btn-small {
+    font-size: 16px;
   }
   
   .wrapper {
@@ -146,6 +149,10 @@ body, html {
 
   .newscontainer {
     max-height: 20rem;
+  }
+
+  .news-box {
+    padding: 24px 16px;
   }
 
   /* #main-index {

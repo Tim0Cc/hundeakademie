@@ -25,11 +25,12 @@ nav .font-yant {
   letter-spacing: 0.14em;
 }
 .btn-big {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-shadow: 0px 0px 1px;
 }
+
 .btn-small {
   font-size: 16px;
   font-weight: 500;
