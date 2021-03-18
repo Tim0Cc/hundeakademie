@@ -89,8 +89,6 @@ body, html {
   p {
     font-size: 0.8em;
   }
-
-  
   
   .news-box {
     padding: 20px 18px 8px 18px;
@@ -145,13 +143,13 @@ body, html {
     max-height: 20rem;
   }
 
-  #main-index {
+  /* #main-index {
     position: absolute;
     top: 90vh;
-  }
+  } */
 
   #banner-section {
-    padding-top: 120px;
+    padding: 104px 16px;
   }
 
   .map-container {
