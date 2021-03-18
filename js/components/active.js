@@ -1,14 +1,14 @@
 const active = function() {
-  const nav = document.querySelector('nav');
-  const li = nav.querySelectorAll('li');
+  const nav = document.getElementById('navList')
+  nav.addEventListener('click', function(event) {
 
-  for (var i = 0; i < li.length; i++) {
-    li[i].addEventListener('click', function {
-      var current = document.getElementsByClassName('active');
-      current[0].className = current[0].className.replace('active', '');
-      this.className += 'active';
-    })
-  }
+    var activeLi = nav.querySelectorAll('.active');
+    console.log(activeLi);
+    if (activeLi !== null) {
+      activeLi.classList.remove('active');
+    }
+    event.target.className = "active";
+  })
 }
 
 export { active };
