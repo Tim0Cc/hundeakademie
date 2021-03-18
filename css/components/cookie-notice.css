@@ -2,13 +2,13 @@
   background-color: #0D1323;
   opacity: 0.95;
   position: fixed;
-  bottom: 0;
   width: 100%;
-  transition: top ease-in-out 0.3s;
+  transition: bottom ease-in 0.4s;
   z-index: 1;
 }
 
 .cookie-text-box {
+  max-height: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;

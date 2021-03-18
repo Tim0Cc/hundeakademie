@@ -1,12 +1,12 @@
-var prevScollPos = window.pageYOffset;
+var prevScrollPos = window.pageYOffset;
 let hideNavbar = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScollPos > currentScrollPos) {
+  if (prevScrollPos > currentScrollPos) {
     document.getElementById("menu").style.top = "0";
   } else {
     document.getElementById("menu").style.top = "-64px";
   }
-  prevScollPos = currentScrollPos;
+  prevScrollPos = currentScrollPos;
 }
 
 

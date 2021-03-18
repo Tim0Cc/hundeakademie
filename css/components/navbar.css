@@ -4,7 +4,6 @@
   background-color: #0D1323;
   opacity: 0.95;
   position: fixed;
-  top: 0;
   width: 100%;
   transition: top ease-in-out 0.3s;
   z-index: 1;
