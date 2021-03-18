@@ -22,6 +22,9 @@
       $.get("common/footer.html", function(data) {
         $("#footer-placeholder").replaceWith(data);
       });
+      $.get("common/cookie-notice.html", function(data) {
+        $("#cookie-notice-placeholder").replaceWith(data);
+      });
     </script>
     <div id="navbar-placeholder"></div>
     
@@ -122,6 +125,7 @@
           </div>
         </section>
         <div id="footer-placeholder"></div>
+        <div id="cookie-notice-placeholder"></div>
       </div>
     </div>
   </body>
