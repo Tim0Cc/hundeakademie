@@ -104,6 +104,10 @@ body, html {
   .wrapper-vita {
     display: block;
   }
+
+  .cookie-text {
+    display: block;
+  }
 }
 @media (max-width: 540px) {
   .avatar {
