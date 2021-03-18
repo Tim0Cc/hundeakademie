@@ -117,10 +117,15 @@ body, html {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 1.6em;
+    line-height: 1.3em;
   }
   .subheader {
-    font-size: 14px;
+    font-size: 1.1em;
+  }
+  .subsubheader {
+    font-size: 1.2em;
+    line-height: 1.6rem;
   }
   h2 {
     font-size: 16px;
@@ -149,7 +154,7 @@ body, html {
   } */
 
   #banner-section {
-    padding: 104px 16px;
+    padding: 104px 12px;
   }
 
   .map-container {

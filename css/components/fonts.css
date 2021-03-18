@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&family=Yantramanav:wght@100;300;400;500;700&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .subheader, .subsubheader {
   font-family: "Montserrat", "Arial", sans-serif;
   margin-top: 0;
 }
 
 p {
-  /* font-family: "Source Open Sans", "Arial", sans-serif; */
+  font-size: 16px;
   font-family: "Hind Madurai", "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.5em;
   letter-spacing: 0.05em;
-  font-size: 16px;
 }
 
 a {
@@ -22,8 +21,8 @@ a {
   font-family: "Yantramanav", "Arial", sans-serif;
 }
 nav .font-yant {
-  letter-spacing: 0.14em;
   font-size: 1.1em;
+  letter-spacing: 0.14em;
 }
 .btn-big {
   font-size: 24px;
@@ -40,21 +39,17 @@ nav .font-yant {
 
 h1 {
   font-size: 48px;
-  color: white;
   letter-spacing: 0.2rem;
-  text-shadow: 0 0 5px black;
+  text-shadow: 2px 2px 0px rgba(13, 19, 35, 1);
 }
 .subheader, .subsubheader {
-  letter-spacing: 0.2rem;
-  line-height: 1.4rem;
-  text-shadow: 0 0 5px black;
 }
 .subheader {
-  color: white;
-  font-size: 20px;
+  font-size: 24px;
 }
 .subsubheader {
-  font-size: 1em;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px rgba(13, 19, 35, 1);
 }
 
 h2 {
