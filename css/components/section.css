@@ -46,21 +46,41 @@ section {
   background: white;
 }
 
-#img-map {
+.img-map {
   width: 100%;
   height: 100%;
 }
 #map-link {
   cursor: pointer;
 }
-.map-container {
+
+
+.map-background, .map-container, .map-text-container, .map-img {
   width: 480px;
   height: 400px;
+}
+.map-background {
   background: rgba(20,33,61,1);
 }
-#map-link img:hover {
+.map-container {
+  background-size: cover;
+}
+.map-img:hover, .map-text-container:hover {
   opacity: 0.8;
-  transition: 0.1s;
+  transition: ease-in-out 0.3s;
+}
+
+.map-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(20,33,61,0);
+}
+.map-text-container h4 {
+  margin-bottom: 0;
+}
+.map-text-container:hover {
+  color: rgba(20,33,61,0.8);
 }
 
 address {
