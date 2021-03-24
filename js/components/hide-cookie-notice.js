@@ -1,8 +1,12 @@
-// const displayCookieNotice = function(event) {
-//   document.getElementById('cookie-notice').style.bottom = "0";
-//   document.getElementById('cookie-button').addEventListener('click', function() {
-//     document.getElementById('cookie-notice').style.bottom = "-64px";
-//   })
-// }
+const displayCookieNotice = function(event) {
+  const cookieNotice = document.getElementById('cookie-notice')
+  const cookieButton = document.getElementById('cookie-button')
+  if (cookieNotice !== null && cookieButton !== null) {
+    cookieNotice.style.bottom = "0";
+    cookieButton.addEventListener('click', function() {
+      cookieNotice.style.bottom = "-64px";
+    });
+  }
+}
 
-// export { displayCookieNotice };
+export { displayCookieNotice };

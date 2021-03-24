@@ -5,6 +5,7 @@
   width: 100%;
   transition: bottom ease-in 0.4s;
   z-index: 1;
+  bottom: 0;
 }
 
 .cookie-text-box {
