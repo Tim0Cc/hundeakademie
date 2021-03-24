@@ -9,5 +9,4 @@ let hideNavbar = function() {
   prevScrollPos = currentScrollPos;
 }
 
-
 export { hideNavbar };

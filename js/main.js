@@ -1,9 +1,9 @@
-import { active } from './components/active.js';
-import { displayCookieNotcie } from './components/cookie-notice.js';
-import { hideNavbar } from './components/navbar-hide.js';
-import { insertNews } from './components/news.js';
+import { hideNavbar } from './components/hide-navbar-onscroll.js';
+import { displayCookieNotice } from './components/hide-cookie-notice.js';
+import { active } from './components/active-menu.js';
+import { insertNews } from './components/insert-news.js';
 
-active();
 window.onscroll = hideNavbar;
+displayCookieNotice();
+active();
 insertNews();
-displayCookieNotcie();
