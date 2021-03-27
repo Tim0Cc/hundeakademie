@@ -36,9 +36,6 @@ body, html {
   .leftside > .wrapper, .rightside > .wrapper {
     display: block;
   }
-  .avatar-vita {
-    width: 
-  }
 }
 
 @media (max-width: 960px) {
@@ -69,10 +66,8 @@ body, html {
     height: 240px;
   }
 }
+
 @media (max-width: 720px) {
-  .container {
-    width: 85%;
-  }
 
   h1 {
     font-size: 32px;
@@ -89,10 +84,6 @@ body, html {
 
   p {
     font-size: 0.8em;
-  }
-  
-  .news-box {
-    padding: 20px 18px 8px 18px;
   }
   
   .map-background, .map-container, .map-text-container, .map-img {
@@ -115,7 +106,7 @@ body, html {
     height: 240px;
   }
   .container {
-    width: 94%;
+    /* width: 90%; */
   }
 
   h1 {
@@ -147,28 +138,27 @@ body, html {
   
   .wrapper {
     display: block;
-    }
-
-  .newscontainer {
-    max-height: 20rem;
   }
 
-  .news-box {
-    padding: 24px 16px;
-  }
-
-  /* #main-index {
-    position: absolute;
-    top: 90vh;
-  } */
-
-  #banner-section {
-    padding: 104px 12px;
+  article, section {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .map-background, .map-container, .map-text-container, .map-img {
     width: 240px;
     height: 200px;
     background-size: 240px 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 85%;
+  }
+  .news-box {
+    max-width: 92%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
