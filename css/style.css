@@ -99,7 +99,10 @@ body, html {
   .wrapper-vita {
     display: block;
   }
-
+  .wrapper-datenschutz {
+    padding: 32px;
+  }
+  
   .cookie-text {
     display: block;
   }
@@ -110,9 +113,9 @@ body, html {
     height: 240px;
   }
   .container {
-    /* width: 90%; */
+    width: 86%;
   }
-
+  
   h1 {
     font-size: 2.0em;
     line-height: 1.3em;
@@ -153,12 +156,12 @@ body, html {
   .wrapper {
     display: block;
   }
-
+  
   article, section {
     padding-left: 0px;
     padding-right: 0px;
   }
-
+  
   .map-background, .map-container, .map-text-container, .map-img {
     width: 240px;
     height: 200px;
@@ -168,11 +171,20 @@ body, html {
 
 @media (max-width: 400px) {
   .container {
-    width: 85%;
+    width: 88%;
   }
   .news-box {
     max-width: 92%;
     padding-left: 16px;
     padding-right: 16px;
+  }
+  h1 {
+    font-size: 1.6em;
+  }
+  #cookie-notice p {
+    font-size: 0.8em;
+  }
+  .wrapper-datenschutz {
+    padding: 24px;
   }
 }
