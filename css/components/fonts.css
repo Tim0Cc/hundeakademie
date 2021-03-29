@@ -20,6 +20,9 @@ a {
   text-decoration: none;
   color: black;
 }
+#credits a {
+  color: white;
+}
 .font-yant {
   font-family: "Yantramanav", "Arial", sans-serif;
 }
