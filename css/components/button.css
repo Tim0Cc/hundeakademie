@@ -18,13 +18,13 @@
 }
 
 .btn-green {
-  color: rgba(13, 19, 35, 0.7);
+  color: rgb(0, 255, 234);
+  background-color: #0d132336;
   border: 1px solid rgba(13, 19, 35, 0.9);;
-  background-color: rgb(0, 255, 234);
 }
 .btn-green:hover {
-  background-color: #0d132336;
-  color: rgb(0, 255, 234);
+  color: rgba(13, 19, 35, 0.7);
+  background-color: rgb(0, 255, 234);
   transition: ease-in-out 0.1s;
 }
 

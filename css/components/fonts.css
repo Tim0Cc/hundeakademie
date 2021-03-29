@@ -38,19 +38,20 @@ nav .font-yant {
   text-shadow: 0px 0px 1px;
 }
 
+h1, .subheader, .subsubheader {
+  color: white;
+}
 h1 {
   font-size: 48px;
-  color: white;
   letter-spacing: 0.2rem;
   text-shadow: 2px 2px 0px rgba(13, 19, 35, 1);
-}
-.subheader, .subsubheader {
 }
 .subheader {
   font-size: 24px;
 }
 .subsubheader {
   font-size: 20px;
+  opacity: 0.88;
   text-shadow: 1px 1px 1px rgba(13, 19, 35, 1);
 }
 
@@ -73,11 +74,6 @@ h4 {
 }
 
 
-
-.subsubheader {
-  color: rgba(255, 255, 255, 0.88);
-}
-
 .text-center {
   text-align: center;
 }
@@ -86,6 +82,6 @@ h4 {
   color: black;
 }
 
-.text-bright{
+.text-bright {
   color: white;
 }
