@@ -1,4 +1,4 @@
-const displayCookieNotice = function(event) {
+const hideCookieNotice = function(event) {
   const cookieNotice = document.getElementById('cookie-notice')
   const cookieButton = document.getElementById('cookie-button')
   if (cookieNotice !== null && cookieButton !== null) {
@@ -9,4 +9,4 @@ const displayCookieNotice = function(event) {
   }
 }
 
-export { displayCookieNotice };
+export { hideCookieNotice };
