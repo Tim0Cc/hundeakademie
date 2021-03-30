@@ -13,7 +13,7 @@
 @import 'components/navbar.css';
 @import 'components/section.css';
 /* CSS pages */
-@import 'pages/vita.css';
+@import 'pages/subpages.css';
 
 /* GENERAL */
 
@@ -21,9 +21,6 @@ body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-.wrapper-vita {
-  overflow: hidden;
 }
 
 /* PAGE */
@@ -33,11 +30,6 @@ body, html {
   margin: 0 auto;
 }
 
-.datenschutz p, .datenschutz h3, .datenschutz h4 {
-  font-size: 1em;
-  letter-spacing: 0px;
-  line-height: 1rem;
-}
 /* SCREENSIZE */
 
 @media (max-width: 1024px) {

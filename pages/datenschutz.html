@@ -14,12 +14,25 @@
   </head>
   <body>
     <script>
-      $.get("../common/navbar.html", function(data) {
-        $("#navbar-placeholder").replaceWith(data);
-      });
-      $.get("../common/footer.html", function(data) {
-        $("#footer-placeholder").replaceWith(data);
-      });
+      fetch('common/navbar.html')
+        .then(res => res.text())
+        .then(text => {
+          var navPlaceholder = document.getElementById('navbar-placeholder');
+          navPlaceholder.insertAdjacentHTML('afterbegin', text);
+        });
+      fetch('common/footer.html')
+        .then(res => res.text())
+        .then(text => {
+          var footPlaceholder = document.getElementById('footer-placeholder');
+          footPlaceholder.insertAdjacentHTML('afterbegin', text);
+        });
+      fetch('common/cookie-notice.html')
+        .then(res => res.text())
+        .then(text => {
+          var cookNotPlacholder = document.getElementById('cookie-notice-placeholder');
+          cookNotPlacholder.insertAdjacentHTML('afterbegin', text);
+          // displayCookieNotice();
+        });
     </script>
 
     <div id="navbar-placeholder"></div>
@@ -28,8 +41,8 @@
           <section class="datenschutz">
             <div class="container">  
               <h1>Datenschutz</h1>
-              <div class="vita-white">
-                <div class="vita-content wrapper-vita wrapper-datenschutz">
+              <div class="box-white">
+                <div class="box-content wrapper-datenschutz">
                   <div class="chapters">
                     <h2>
                       Datenschutzerklärung
