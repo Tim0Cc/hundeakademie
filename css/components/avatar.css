@@ -1,7 +1,8 @@
 .avatar {
   background-image: url("../../img/A2_Nina\ Bayer.jpg");
-  background-size: cover;
+  background-size: 125%;
   background-repeat: no-repeat;
+  background-position: 62% 20%;
   box-shadow: 0px 0px 4px 4px rgba(13, 19, 35, 0.6);
   margin: 30px auto;
   display: flex;
