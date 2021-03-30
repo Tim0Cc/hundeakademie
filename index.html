@@ -21,7 +21,6 @@
           return res.text();
         })
         .then(cont => {
-          console.log(cont);
           var navPlaceholder = document.getElementById('navbar-placeholder');
           navPlaceholder.insertAdjacentHTML('afterbegin', cont);
         });
