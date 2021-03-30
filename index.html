@@ -16,9 +16,18 @@
   </head>
   <body>
     <script>
-      $.get("common/navbar.html", function(data) {
-        $("#navbar-placeholder").replaceWith(data);
-      });
+      fetch('common/navbar.html')
+        .then(res => {
+          return res.text();
+        })
+        .then(cont => {
+          console.log(cont);
+          var navPlaceholder = document.getElementById('navbar-placeholder');
+          navPlaceholder.insertAdjacentHTML('afterbegin', cont);
+        });
+      // $.get("common/navbar.html", function(data) {
+      //   $("#navbar-placeholder").replaceWith(data);
+      // });
       $.get("common/footer.html", function(data) {
         $("#footer-placeholder").replaceWith(data);
       });
