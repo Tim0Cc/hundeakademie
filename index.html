@@ -24,12 +24,18 @@
           var navPlaceholder = document.getElementById('navbar-placeholder');
           navPlaceholder.insertAdjacentHTML('afterbegin', cont);
         });
-      // $.get("common/navbar.html", function(data) {
-      //   $("#navbar-placeholder").replaceWith(data);
+      fetch('common/footer.html')
+        .then(res => {
+          return res.text();
+        })
+        .then(cont => {
+          console.log(cont);
+          var footPlaceholder = document.getElementById('footer-placeholder');
+          footPlaceholder.insertAdjacentHTML('afterbegin', cont);
+        });
+      // $.get("common/footer.html", function(data) {
+      //   $("#footer-placeholder").replaceWith(data);
       // });
-      $.get("common/footer.html", function(data) {
-        $("#footer-placeholder").replaceWith(data);
-      });
       $.get("common/cookie-notice.html", function(data) {
         $("#cookie-notice-placeholder").replaceWith(data); 
         // displayCookieNotice();
