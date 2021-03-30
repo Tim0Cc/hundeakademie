@@ -88,11 +88,22 @@ body, html {
     background-size: 300px 250px;
   }
   
-  .wrapper-vita {
+  .wrapper-vita, .wrapper-event {
     display: block;
   }
   .wrapper-datenschutz {
     padding: 32px;
+  }
+  .date-box {
+    border-right: none;
+    border-bottom: 1px solid rgba(13, 19, 35, 0.7);
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottomborder {
+    border-bottom: none;
+    padding-bottom: none;
   }
   
   .cookie-text {
