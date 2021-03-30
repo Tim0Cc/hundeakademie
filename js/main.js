@@ -8,9 +8,9 @@ import { insertNews } from './components/insert-news.js';
 
 loadCommon();
 window.onscroll = hideNavbar;
+hideCookieNotice();
 // document.addEventListener('DOMContentLoaded', (e) => {
 // });
-hideCookieNotice();
 insertNews();
 
 // console.log('main.js before calling active()')
