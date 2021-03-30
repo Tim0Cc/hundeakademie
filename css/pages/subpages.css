@@ -54,3 +54,22 @@
 #veranstaltung {
   padding-top: 24px;
 }
+
+.card {
+  padding: 16px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid black;
+}
+
+.wrapper-event {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.date-box {
+  grid-column: 1;
+}
+
+.event-box {
+  grid-column: 2;
+}
