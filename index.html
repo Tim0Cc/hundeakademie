@@ -15,29 +15,22 @@
   <body>
     <script>
       fetch('common/navbar.html')
-        .then(res => {
-          return res.text();
-        })
-        .then(cont => {
+        .then(res => res.text())
+        .then(text => {
           var navPlaceholder = document.getElementById('navbar-placeholder');
-          navPlaceholder.insertAdjacentHTML('afterbegin', cont);
+          navPlaceholder.insertAdjacentHTML('afterbegin', text);
         });
       fetch('common/footer.html')
-        .then(res => {
-          return res.text();
-        })
-        .then(cont => {
-          console.log(cont);
+        .then(res => res.text())
+        .then(text => {
           var footPlaceholder = document.getElementById('footer-placeholder');
-          footPlaceholder.insertAdjacentHTML('afterbegin', cont);
+          footPlaceholder.insertAdjacentHTML('afterbegin', text);
         });
       fetch('common/cookie-notice.html')
-        .then(res => {
-          return res.text();
-        })
-        .then(cont => {
+        .then(res => res.text())
+        .then(text => {
           var cookNotPlacholder = document.getElementById('cookie-notice-placeholder');
-          cookNotPlacholder.insertAdjacentHTML('afterbegin', cont);
+          cookNotPlacholder.insertAdjacentHTML('afterbegin', text);
           // displayCookieNotice();
         });
     </script>
