@@ -16,13 +16,6 @@ function loadCommon() {
       var footPlaceholder = document.getElementById('footer-placeholder');
       footPlaceholder.insertAdjacentHTML('afterbegin', text);
     });
-  // fetch('common/cookie-notice.html')
-  //   .then(res => res.text())
-  //   .then(text => {
-  //     var cookNotPlaceholder = document.getElementById('cookie-notice-placeholder');
-  //     cookNotPlaceholder.insertAdjacentHTML('afterbegin', text);
-  //     // hideCookieNotice();
-  //   });
 }
 
 loadCommon();
@@ -45,25 +38,18 @@ window.onscroll = hideNavbar;
 
 // hide cookie notice
 
-// console.log('hide-cookie-notice.js');
-function hideCookieNotice(event) {
-  // console.log('const hideCookieNotice')
-  // if (document.getElementById('cookie-notice-placeholder') !== null) {
-  //   console.log('if statement');
-    const cookieNotice = document.getElementById('cookie-notice')
-    const cookieButton = document.getElementById('cookie-button')
-    // console.log(cookieNotice + ' ' + cookieButton);
+const cookieNotice = document.getElementById('cookie-notice');
+const cookieButton = document.getElementById('cookie-button');
+function hideCookieNotice() {
+    // console.log(cookieButton, cookieNotice);
     if (cookieNotice !== null && cookieButton !== null) {
-      console.log('2nd if statement');
+      // console.log('2nd if statement');
       cookieNotice.style.bottom = "0";
       cookieButton.addEventListener('click', function() {
         cookieNotice.style.bottom = "-64px";
       });
     }
-  // };
-  // console.log('const end');
 }
-// console.log('js end');
 
 hideCookieNotice();
 
@@ -71,8 +57,8 @@ hideCookieNotice();
 
 function insertNews() {
   if (window.location.pathname === '/') {
-    document.getElementById('news-header').innerHTML = "Corona- Zeiten";
-    document.getElementById('news-p').innerHTML = "Ich Liebe Hundebesitzer und Hundebesitzerinnen, Liebe Kunden <br>um weiterhin die Versorgung Ihrer Tiere zu gewährleisten, bleibt meine Praxis geöffnet.<br>Bitte kontaktieren Sie mich telefonisch oder per Email, damit wir die Termine sicher und unter Beachtung der gebotenen Maßnahmen vereinbaren können.<br>Ich wünsche Ihnen starke Nerven für diese schwere Zeit<br>Bleiben Sie und Ihre Tiere gesund<br>Nina Bayer"
+    document.getElementById('news-header').innerHTML = "Willkommen !";
+    document.getElementById('news-p').innerHTML = "Liebe Hundebesitzer und Hundebesitzerinnen,<br><br>ich freue mich Sie auf meiner neuen Seite begrüßen zu dürfen. <br><br> Hier können Sie sich demnächst über anstehende Workshops und Vorlesungen informieren. <br><br> Ihre Veterinärmedizinerin, <br>  Nina Bayer"
   }
 }
 
