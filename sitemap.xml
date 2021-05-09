@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hundeakademie-muenchen.de/</loc>
+    <loc>https://hundeakademie-münchen.de/</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://one-test.website/kalender.html/</loc>
+    <loc>https://hundeakademie-münchen.de/kalender.html/</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://one-test.website/vita.html/</loc>
+    <loc>https://hundeakademie-münchen.de/vita.html/</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://one-test.website/datenschutz.html/</loc>
+    <loc>https://hundeakademie-münchen.de/datenschutz.html/</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://one-test.website/impressum.html/</loc>
+    <loc>https://hundeakademie-münchen.de/impressum.html/</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
