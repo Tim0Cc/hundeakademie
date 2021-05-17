@@ -1,0 +1,19 @@
+<IfModule mod_expires.c>
+
+ExpiresActive On
+
+ExpiresDefault "access 60 seconds"
+
+ExpiresByType image/jpg "access plus 7 days"
+
+ExpiresByType image/jpeg "access plus 7 days"
+
+ExpiresByType image/png "access plus 7 days"
+
+ExpiresByType image/ico "access plus 7 days"
+
+ExpiresByType text/css "access 7 days"
+
+ExpiresByType text/javascript "access 7 days"
+
+</IfModule>
