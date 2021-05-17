@@ -22,19 +22,27 @@ loadCommon();
 
 // hide navbar on scroll
 
-var prevScrollPos = window.pageYOffset;
-let hideNavbar = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollPos > currentScrollPos) {
-    document.getElementById("menu").style.top = "0";
-  } else {
-    document.getElementById("menu").style.top = "-64px";
-  }
-  prevScrollPos = currentScrollPos;
+const menu = document.getElementById("menu");
+
+document.addEventListener("wheel", handleScroll);
+
+function handleScrollUp() {
+  // console.log("UP");
+  menu.style.top = "0";
 }
 
-window.onscroll = hideNavbar;
+function handleScrollDown() {
+  // console.log("DOWN");
+  menu.style.top = "-64px";
+}
 
+function handleScroll(event) {
+  if ((event.wheelDelta && event.wheelDelta > 0) || event.deltaY < 0) {
+    handleScrollUp();
+  } else {
+    handleScrollDown();
+  }
+}
 
 // hide cookie notice
 
