@@ -29,15 +29,17 @@ loadCommon();
 
 const menu = document.getElementById("menu");
 
+// DESKTOP
+
 document.addEventListener("wheel", handleScroll);
 
 function handleScrollUp() {
-  // console.log("UP");
+  console.log("UP");
   menu.style.top = "0";
 }
 
 function handleScrollDown() {
-  // console.log("DOWN");
+  console.log("DOWN");
   menu.style.top = "-64px";
 }
 
@@ -48,6 +50,32 @@ function handleScroll(event) {
     handleScrollDown();
   }
 }
+
+// MOBILE
+
+document.addEventListener("touchmove", handleMove);
+
+var tsy = 0
+var te
+var tsy
+var tey
+function handleMove(e) {
+
+  if(e.type == 'touchmove') {
+    te = e.changedTouches[0];
+    tey = te.screenY;
+    console.log('tsy: ', tsy);
+    console.log('tey: ', tey);
+    if(tey >= tsy) {
+      console.log('if');
+      handleScrollUp();
+    } else {
+      console.log('else');
+      handleScrollDown();
+    }
+  }
+  tsy = tey;
+  console.log('tsy2: ', tsy);
 
 // hide cookie notice
 
