@@ -3,18 +3,23 @@
 
 // load common
 
+const navPlaceholder = document.getElementById('navbar-placeholder');
+const footPlaceholder = document.getElementById('footer-placeholder');
+
 function loadCommon() {
   fetch('common/navbar.html')
     .then(res => res.text())
     .then(text => {
-      var navPlaceholder = document.getElementById('navbar-placeholder');
-      navPlaceholder.insertAdjacentHTML('afterbegin', text);
+      if (navPlaceholder) {
+        navPlaceholder.insertAdjacentHTML('afterbegin', text);
+      }
     });
   fetch('common/footer.html')
     .then(res => res.text())
     .then(text => {
-      var footPlaceholder = document.getElementById('footer-placeholder');
+      if (footPlaceholder) {
       footPlaceholder.insertAdjacentHTML('afterbegin', text);
+      }
     });
 }
 
