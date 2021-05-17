@@ -7,25 +7,25 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hundeakademie-münchen.de/kalender.html/</loc>
+    <loc>https://hundeakademie-münchen.de/kalender.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hundeakademie-münchen.de/vita.html/</loc>
+    <loc>https://hundeakademie-münchen.de/vita.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://hundeakademie-münchen.de/datenschutz.html/</loc>
+    <loc>https://hundeakademie-münchen.de/datenschutz.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://hundeakademie-münchen.de/impressum.html/</loc>
+    <loc>https://hundeakademie-münchen.de/impressum.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
