@@ -129,10 +129,14 @@ for (var i = 0; i < navListItems.length; i++) {
 // hide mobile menu after click on anchor-li
 const main = document.querySelector(".main");
 const banner = document.getElementById("banner");
+const btns = document.querySelectorAll('.btn');
 
 navList.addEventListener('click', hideMobileMenu);
 main.addEventListener('click', hideMobileMenu);
 banner.addEventListener('click', hideMobileMenu);
+btns.forEach((btn) => {
+  btn.addEventListener('click', hideMobileMenu);
+})
 
 
 function hideMobileMenu() {
