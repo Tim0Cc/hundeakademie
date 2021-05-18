@@ -127,16 +127,19 @@ for (var i = 0; i < navListItems.length; i++) {
 }
 
 // hide mobile menu after click on anchor-li
+const main = document.querySelector(".main");
+const banner = document.getElementById("banner");
 
-navList.addEventListener('click', function(){
-  // Check/Uncheck
-  var checkBox = document.getElementById("checkbox-toggle");
-  console.log(checkBox);
-  console.log(checkBox.checked);
-  checkBox.checked = !checkBox.checked;
-  console.log(checkBox);
-  console.log(checkBox.checked);
-})
+navList.addEventListener('click', hideMobileMenu);
+main.addEventListener('click', hideMobileMenu);
+banner.addEventListener('click', hideMobileMenu);
+
+
+function hideMobileMenu() {
+    // Check/Uncheck
+    var checkBox = document.getElementById("checkbox-toggle");
+    checkBox.checked = !checkBox.checked;
+}
 
 
 // console.log('main.js end');
