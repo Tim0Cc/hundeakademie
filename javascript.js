@@ -106,34 +106,23 @@ insertNews();
 
 // active menu
 
-// console.log('active-menu.js beginning');
-// const nav = document.getElementById('navList');
-// var activeLi = nav.querySelectorAll('.active');
-// console.log("activeLi: ", activeLi);
-// function active() {
-//   // console.log('active-menu.js active(){} beginning');
-//   console.log("nav: ", nav);
-//   // console.log('active-menu.js active(){} after initializing nav');
-//   if (nav !== null) {
-//     // console.log('active-menu.js active(){} inside the if statement');
-//     nav.addEventListener('click', function(event) {
-//       // console.log('active-menu.js active(){} inside the if statement in the eventlistener');
-//       if (activeLi !== null) {
-//         console.log("activeLi 0: ", activeLi[0]);
-//         activeLi[0].classList.remove("active");
-//         console.log(nav);
-//       }
-//       event.target.className = "active";
-//       console.log("nav: ", nav);
-//     })
-//     console.log("nav: ", nav);
-//   }
-//   // console.log('active-menu.js active(){} end');
-// }
+// Get the container element
+const navList = document.getElementById('navList');
+// console.log(navList);
 
-// active();
-// console.log("nav: ", nav);
-// // console.log('active-menu.js active(){} after');
+// Get all buttons with class="btn" inside the container
+var navListItems = navList.querySelectorAll('li');
+// console.log(navListItems);
 
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < navListItems.length; i++) {
+  navListItems[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    // console.log('current[0].className: ', current[0].className);
+    current[0].className = current[0].className.replace("active", "");
+    // console.log('current[0].className: ', current[0].className);
+    this.className += " active";
+  });
+}
 
 // console.log('main.js end');
