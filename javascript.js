@@ -76,19 +76,20 @@ function handleMove(e) {
   // console.log('tsy2: ', tsy);
 }
 
+
 // hide cookie notice
 
 const cookieNotice = document.getElementById('cookie-notice');
 const cookieButton = document.getElementById('cookie-button');
 function hideCookieNotice() {
-    // console.log(cookieButton, cookieNotice);
-    if (cookieNotice !== null && cookieButton !== null) {
-      // console.log('2nd if statement');
-      cookieNotice.style.bottom = "0";
-      cookieButton.addEventListener('click', function() {
-        cookieNotice.style.bottom = "-64px";
-      });
-    }
+  // console.log(cookieButton, cookieNotice);
+  if (cookieNotice !== null && cookieButton !== null) {
+    // console.log('2nd if statement');
+    cookieNotice.style.bottom = "0";
+    cookieButton.addEventListener('click', function() {
+      cookieNotice.style.bottom = "-64px";
+    });
+  }
 }
 
 hideCookieNotice();
@@ -124,5 +125,18 @@ for (var i = 0; i < navListItems.length; i++) {
     this.className += " active";
   });
 }
+
+// hide mobile menu after click on anchor-li
+
+navList.addEventListener('click', function(){
+  // Check/Uncheck
+  var checkBox = document.getElementById("checkbox-toggle");
+  console.log(checkBox);
+  console.log(checkBox.checked);
+  checkBox.checked = !checkBox.checked;
+  console.log(checkBox);
+  console.log(checkBox.checked);
+})
+
 
 // console.log('main.js end');
