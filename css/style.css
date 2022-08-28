@@ -1,12 +1,14 @@
 /* IMPORTS */
 
+/* fonts */
+@import 'fonts/fonts.css';
+
 /* CSS components */
 @import 'components/article-news.css';
 @import 'components/avatar.css';
 @import 'components/banner.css';
 @import 'components/button.css';
 @import 'components/cookie-notice.css';
-@import 'components/fonts.css';
 @import 'components/footer.css';
 @import 'components/icons.css';
 @import 'components/main.css';
